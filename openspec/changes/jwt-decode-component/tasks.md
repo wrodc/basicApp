@@ -6,7 +6,7 @@
 ## 2. Decoder Implementation
 
 - [x] 2.1 Implement a small utility function `parseJwt(token)` that returns `{ header, payload }` or throws a descriptive error for malformed input
-- [ ] 2.2 Add unit tests for `parseJwt` (if test runner exists) or add a small self-test block in the component
+- [x] 2.2 Add unit tests for `parseJwt` (if test runner exists) or add a small self-test block in the component
 
 ## 3. Component UI
 
