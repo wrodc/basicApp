@@ -1,0 +1,48 @@
+.jwt-decode {
+  margin: 24px auto;
+  max-width: 900px;
+  text-align: left;
+  padding: 16px;
+}
+
+.jwt-decode h2 {
+  margin: 0 0 8px;
+}
+
+.jwt-warning {
+  font-size: 13px;
+  color: var(--text);
+  margin: 0 0 8px;
+}
+
+.jwt-input {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: var(--mono);
+  margin: 8px 0 16px;
+}
+
+.jwt-outputs {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.jwt-output {
+  flex: 1 1 45%;
+}
+
+.jwt-output textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: var(--mono);
+}
+
+.jwt-error {
+  min-height: 1.25em;
+  margin-top: 12px;
+}
+
+.error-text {
+  color: #b91c1c; /* red-700 */
+}

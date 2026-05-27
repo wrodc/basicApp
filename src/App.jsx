@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import JwtDecode from './components/JwtDecode'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,6 +32,9 @@ function App() {
       </section>
 
       <div className="ticks"></div>
+
+      {/* JWT Decoder inserted under the hero section per change */}
+      <JwtDecode />
 
       <section id="next-steps">
         <div id="docs">
